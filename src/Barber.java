@@ -1,6 +1,5 @@
 public class Barber {
     ServeBehavior service;
-
     public Barber(ServeBehavior service) {
         this.service = service;
     }

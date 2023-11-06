@@ -1,14 +1,16 @@
-public class ServiceFactory {
+public class SimpleServiceFactory {
     public static ServeBehavior createService(int choice) {
         switch (choice) {
-            case 1:
+            case 1 -> {
                 return new MenService();
-            case 2:
+            }
+            case 2 -> {
                 return new WomenService();
-            case 3:
+            }
+            case 3 -> {
                 return new ChildrenService();
-            default:
-                throw new IllegalArgumentException("Invalid choice");
+            }
+            default -> throw new IllegalArgumentException("Invalid choice");
         }
     }
 }
