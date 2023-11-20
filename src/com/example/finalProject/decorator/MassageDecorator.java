@@ -1,5 +1,9 @@
+package com.example.finalProject.decorator;
+
+import com.example.finalProject.strategy.ServiceStrategy;
+
 public class MassageDecorator extends ServiceDecorator {
-    public MassageDecorator(ServeBehavior serveBehavior){
+    public MassageDecorator(ServiceStrategy serveBehavior){
         super(serveBehavior);
     }
     @Override
