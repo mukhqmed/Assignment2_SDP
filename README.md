@@ -32,7 +32,7 @@ The project serves as a showcase of design patterns, including Singleton, Strate
 ## Main Body
 
 ## Design Patterns
-###Strategy Pattern
+### Strategy Pattern
 
 The **Strategy pattern** is employed to model various barbershop services (Men's Haircut, Women's Haircut, Manicure) as separate strategies, implementing the `ServiceStrategy` interface.
 
