@@ -20,6 +20,7 @@ The project serves as a showcase of design patterns, including Singleton, Strate
 ## Table of Contents
 
 - [Design Patterns](#design-patterns)
+  - [Strategy Pattern](#strategy-pattern)
   - [Singleton Pattern](#singleton-pattern)
   - [Factory Pattern](#factory-pattern)
   - [Decorator Pattern](#decorator-pattern)
@@ -30,17 +31,11 @@ The project serves as a showcase of design patterns, including Singleton, Strate
 
 ## Main Body
 
-### Service Modeling with Strategy Pattern
+## Design Patterns
+###Strategy Pattern
 
 The **Strategy pattern** is employed to model various barbershop services (Men's Haircut, Women's Haircut, Manicure) as separate strategies, implementing the `ServiceStrategy` interface.
 
-
-# Flexible Barbershop System
-
-This project demonstrates the implementation of various design patterns to create a flexible system for a barbershop. The design patterns used include Singleton, Strategy, Observer, Factory, Decorator, and Adapter. The goal is to handle different services efficiently and provide real-time updates to relevant personnel.
-
-
-## Design Patterns
 
 ### Singleton Pattern
 
