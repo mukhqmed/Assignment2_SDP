@@ -24,57 +24,7 @@ The project serves as a showcase of design patterns, including Singleton, Strate
 
 The **Strategy pattern** is employed to model various barbershop services (Men's Haircut, Women's Haircut, Manicure) as separate strategies, implementing the `ServiceStrategy` interface.
 
-```java
-// Strategy 
-public interface ServiceStrategy {
-    void serve();
-    double getCost();
-}
 
-
-// ConcreteStrategy1
-public class MenService implements ServiceStrategy {
-    private static final double MEN_SERVICE_COST = 3500;
-    @Override
-    public void serve() {
-        System.out.println("You have chosen a master who specializes in men's haircuts");
-    }
-
-    @Override
-    public double getCost() {
-        return MEN_SERVICE_COST;
-    }
-}
-
-
-// ConcreteStrategy2
-public class ChildrenService implements ServiceStrategy {
-    private static final double CHILDREN_SERVICE_COST = 3000;
-    @Override
-    public void serve() {
-        System.out.println("You have chosen a master who specializes in children's haircuts");
-    }
-
-    @Override
-    public double getCost() {
-        return CHILDREN_SERVICE_COST;
-    }
-}
-
-
-// ConcreteStrategy3
-public class WomenService implements ServiceStrategy {
-    private static final double WOMEN_SERVICE_COST = 4500;
-    @Override
-    public void serve() {
-        System.out.println("You have chosen a master who specializes in women's haircuts");
-    }
-
-    @Override
-    public double getCost() {
-        return WOMEN_SERVICE_COST;
-    }
-}
 # Flexible Barbershop System
 
 This project demonstrates the implementation of various design patterns to create a flexible system for a barbershop. The design patterns used include Singleton, Strategy, Observer, Factory, Decorator, and Adapter. The goal is to handle different services efficiently and provide real-time updates to relevant personnel.
