@@ -4,16 +4,19 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c7e412e7-f618-4769-8b3d-a8c79893b6a8" name="Changes" comment="Usage of Strategy and Decorator patterns">
-      <change afterPath="$PROJECT_DIR$/src/com/example/finalProject/factory/ChildrenServiceFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/example/finalProject/factory/ManicureServiceFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/example/finalProject/factory/MenServiceFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/example/finalProject/factory/ServiceFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/example/finalProject/factory/ServiceFactoryProvider.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/example/finalProject/factory/WomenServiceFactory.java" afterDir="false" />
+    <list default="true" id="c7e412e7-f618-4769-8b3d-a8c79893b6a8" name="Changes" comment="Usage of 6 patterns">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/example/finalProject/Barber.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/example/finalProject/Barber.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/example/finalProject/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/example/finalProject/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/example/finalProject/SimpleServiceFactory.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/example/finalProject/adapter/ManicureAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/example/finalProject/adapter/ManicureAdapter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/example/finalProject/decorator/HairWashingDecorator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/example/finalProject/decorator/HairWashingDecorator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/example/finalProject/decorator/MassageDecorator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/example/finalProject/decorator/MassageDecorator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/example/finalProject/decorator/ServiceDecorator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/example/finalProject/decorator/ServiceDecorator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/example/finalProject/observer/Receptionist.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/example/finalProject/observer/Receptionist.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/example/finalProject/strategy/ChildrenService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/example/finalProject/strategy/ChildrenService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/example/finalProject/strategy/MenService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/example/finalProject/strategy/MenService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/example/finalProject/strategy/ServiceStrategy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/example/finalProject/strategy/ServiceStrategy.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/example/finalProject/strategy/WomenService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/example/finalProject/strategy/WomenService.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -94,7 +97,8 @@
       <workItem from="1700504170580" duration="775000" />
       <workItem from="1700505209582" duration="4232000" />
       <workItem from="1700510022262" duration="225000" />
-      <workItem from="1700510283210" duration="2065000" />
+      <workItem from="1700510283210" duration="3075000" />
+      <workItem from="1700554690718" duration="3902000" />
     </task>
     <task id="LOCAL-00001" summary="Usage of Strategy and Decorator patterns">
       <option name="closed" value="true" />
@@ -120,7 +124,15 @@
       <option name="project" value="LOCAL" />
       <updated>1700507139147</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Usage of 6 patterns">
+      <option name="closed" value="true" />
+      <created>1700516929805</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1700516929805</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -139,6 +151,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Usage of Strategy and Decorator patterns" />
-    <option name="LAST_COMMIT_MESSAGE" value="Usage of Strategy and Decorator patterns" />
+    <MESSAGE value="Usage of 6 patterns" />
+    <option name="LAST_COMMIT_MESSAGE" value="Usage of 6 patterns" />
   </component>
 </project>

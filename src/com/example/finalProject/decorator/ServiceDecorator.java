@@ -13,4 +13,10 @@ public abstract class ServiceDecorator implements ServiceStrategy {
     public void serve() {
         serveBehavior.serve();
     }
+    public abstract double getAdditionalCost();
+
+    @Override
+    public double getCost() {
+        return serveBehavior.getCost() + getAdditionalCost();
+    }
 }

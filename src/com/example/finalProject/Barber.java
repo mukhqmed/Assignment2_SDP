@@ -8,6 +8,7 @@ import java.util.ArrayList;
 public class Barber {
     private ServiceStrategy service;
     private List<Observer> observers;
+    private double cost;
 
     public Barber(ServiceStrategy service) {
         this.service = service;
@@ -16,7 +17,13 @@ public class Barber {
 
     public void serve() {
         service.serve();
+        cost = service.getCost();
+        System.out.println("The total cost of the service is:  ₸" + cost);
         notifyObservers();
+    }
+
+    public double getCost() {
+        return cost;
     }
 
     public void registerObserver(Observer observer) {

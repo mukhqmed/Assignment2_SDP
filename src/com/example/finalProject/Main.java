@@ -16,31 +16,30 @@ public class Main {
         DatabaseSingleton database = DatabaseSingleton.getInstance();
         Scanner scanner = new Scanner(System.in);
         System.out.println("Welcome to the Barbershop! Please, choose desired stylist");
-        System.out.println("1. Men' stylist ");
-        System.out.println("2. Women's stylist");
-        System.out.println("3. Children's stylist");
-        System.out.println("4. Manicure stylist");
+        System.out.println("1. Men's stylist (3500₸)");
+        System.out.println("2. Women's stylist (4500₸)");
+        System.out.println("3. Children's stylist (3000₸)");
+        System.out.println("4. Manicure stylist (5000₸)");
         int choice = scanner.nextInt();
         ServiceFactory factory = ServiceFactoryProvider.getFactory(choice);
         ServiceStrategy baseService = factory.createService(choice);
 
         if (choice < 4) {
-            System.out.println("Do you want hair washing (1 for yes, 0 for no): ");
+            System.out.println("Do you want hair washing(200₸) (1 for yes, 0 for no): ");
             int hairWashingChoice = scanner.nextInt();
             if (hairWashingChoice == 1) {
                 baseService = new HairWashingDecorator(baseService);
             }
-            System.out.println("Do you want a massage (1 for yes, 0 for no): ");
+            System.out.println("Do you want a massage(200₸) (1 for yes, 0 for no): ");
             int massageChoice = scanner.nextInt();
             if (massageChoice == 1) {
                 baseService = new MassageDecorator(baseService);
             }
         }
-
+        database.connect();
         Barber barber = new Barber(baseService);
         barber.registerObserver(new Manager());
-        barber.registerObserver(new Receptionist());
+        barber.registerObserver(new Receptionist(barber));
         barber.serve();
-        database.connect();
     }
 }
