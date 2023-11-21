@@ -1,4 +1,3 @@
-# FINAL_SDP
 # Barbershop Environment Modeling System
 
 ## Project Overview
