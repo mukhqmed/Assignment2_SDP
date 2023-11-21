@@ -61,7 +61,7 @@ Real-time updates are achieved using the **Observer pattern**. The `Manager` and
 
 The **Adapter pattern** is used to make non-standard services, such as `Manicure`, fit the standard `ServiceStrategy` interface. This guarantees a uniform interface for all services and ensures easy integration.
 
-![Example Image](UMLDiagram.png)
+![Example Image](UmlDiagram.png)
 
 ## Conclusion
 
