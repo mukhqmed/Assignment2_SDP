@@ -61,6 +61,8 @@ Real-time updates are achieved using the **Observer pattern**. The `Manager` and
 
 The **Adapter pattern** is used to make non-standard services, such as `Manicure`, fit the standard `ServiceStrategy` interface. This guarantees a uniform interface for all services and ensures easy integration.
 
+![Example Image](UMLDiagram.png)
+
 ## Conclusion
 
 In this project, I used design patterns like **Singleton, Strategy, Observer, Factory, Decorator, and Adapter** to make a flexible system for a barbershop. It's good at handling different services and notifying people when a service is done. I followed some **SOLID, DRY, KISS, YAGNI** principles for better code. I learned some things along the way, and this project can be improved by adding more services, more specific and concrete method implementations, making sure it works well in different situations.
