@@ -1,10 +1,23 @@
 # Barbershop Environment Modeling System
 
-## Project Overview
 
 **Project Name:** Barbershop Modeling System  
 **Group:** SE-2210  
 **Student:** Kaskyrbayev Mukhammed
+## Table of Contents
+
+- [Project Overview](project-overview)
+- [Design Patterns](#design-patterns)
+  - [Strategy Pattern](#strategy-pattern)
+  - [Singleton Pattern](#singleton-pattern)
+  - [Factory Pattern](#factory-pattern)
+  - [Decorator Pattern](#decorator-pattern)
+  - [Observer Pattern](#observer-pattern)
+  - [Adapter Pattern](#adapter-pattern)
+- [Conclusion](#conclusion)
+
+## Project Overview
+
 
 ### Description
 
@@ -17,16 +30,7 @@ The primary concept revolves around modeling a virtual barbershop environment, w
 ### Purpose of the Project
 
 The project serves as a showcase of design patterns, including Singleton, Strategy, Observer, Factory, Decorator, and Adapter. The adherence to SOLID principles ensures a robust and logically structured system.
-## Table of Contents
 
-- [Design Patterns](#design-patterns)
-  - [Strategy Pattern](#strategy-pattern)
-  - [Singleton Pattern](#singleton-pattern)
-  - [Factory Pattern](#factory-pattern)
-  - [Decorator Pattern](#decorator-pattern)
-  - [Observer Pattern](#observer-pattern)
-  - [Adapter Pattern](#adapter-pattern)
-- [Conclusion](#conclusion)
 
 
 ## Main Body
