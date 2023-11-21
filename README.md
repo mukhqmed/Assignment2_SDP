@@ -75,3 +75,42 @@ public class WomenService implements ServiceStrategy {
         return WOMEN_SERVICE_COST;
     }
 }
+# Flexible Barbershop System
+
+This project demonstrates the implementation of various design patterns to create a flexible system for a barbershop. The design patterns used include Singleton, Strategy, Observer, Factory, Decorator, and Adapter. The goal is to handle different services efficiently and provide real-time updates to relevant personnel.
+
+## Table of Contents
+
+- [Design Patterns](#design-patterns)
+  - [Singleton Pattern](#singleton-pattern)
+  - [Factory Pattern](#factory-pattern)
+  - [Decorator Pattern](#decorator-pattern)
+  - [Observer Pattern](#observer-pattern)
+  - [Adapter Pattern](#adapter-pattern)
+- [Conclusion](#conclusion)
+
+## Design Patterns
+
+### Singleton Pattern
+
+The Singleton pattern is employed for managing the database connection. This ensures a single and globally accessible instance of the database connection, enhancing efficiency and avoiding redundant database connections.
+
+### Factory Pattern
+
+The Factory pattern is implemented to create services dynamically based on user choices. The `ServiceFactoryProvider` selects the appropriate factory, and the chosen factory creates the specific service. This allows for flexible service creation.
+
+### Decorator Pattern
+
+The Decorator pattern enhances customization by allowing customers to add additional features to their chosen services. For example, customers can choose features like hair washing or massages, which are implemented as decorators.
+
+### Observer Pattern
+
+Real-time updates are achieved using the Observer pattern. The Manager and Receptionist are notified instantly when a service is done, enabling quick actions or immediate sharing of information.
+
+### Adapter Pattern
+
+The Adapter pattern is used to make non-standard services, such as Manicure, fit the standard `ServiceStrategy` interface. This guarantees a uniform interface for all services and ensures easy integration.
+
+## Conclusion
+
+In this project, we applied design patterns and followed SOLID, DRY, KISS, YAGNI principles to create a flexible system for a barbershop. The system can efficiently handle different services, notify relevant personnel in real-time, and can be further improved by adding more services and specific method implementations for various scenarios.
