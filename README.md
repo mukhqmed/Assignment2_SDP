@@ -25,31 +25,53 @@ The project serves as a showcase of design patterns, including Singleton, Strate
 The **Strategy pattern** is employed to model various barbershop services (Men's Haircut, Women's Haircut, Manicure) as separate strategies, implementing the `ServiceStrategy` interface.
 
 ```java
-// ServiceStrategy interface
+// Strategy 
 public interface ServiceStrategy {
-    void performService();
+    void serve();
+    double getCost();
 }
+
 
 // ConcreteStrategy1
-public class MenHaircutStrategy implements ServiceStrategy {
+public class MenService implements ServiceStrategy {
+    private static final double MEN_SERVICE_COST = 3500;
     @Override
-    public void performService() {
-        System.out.println("Executing Men's Haircut service");
+    public void serve() {
+        System.out.println("You have chosen a master who specializes in men's haircuts");
+    }
+
+    @Override
+    public double getCost() {
+        return MEN_SERVICE_COST;
     }
 }
+
 
 // ConcreteStrategy2
-public class WomenHaircutStrategy implements ServiceStrategy {
+public class ChildrenService implements ServiceStrategy {
+    private static final double CHILDREN_SERVICE_COST = 3000;
     @Override
-    public void performService() {
-        System.out.println("Executing Women's Haircut service");
+    public void serve() {
+        System.out.println("You have chosen a master who specializes in children's haircuts");
+    }
+
+    @Override
+    public double getCost() {
+        return CHILDREN_SERVICE_COST;
     }
 }
 
+
 // ConcreteStrategy3
-public class ManicureStrategy implements ServiceStrategy {
+public class WomenService implements ServiceStrategy {
+    private static final double WOMEN_SERVICE_COST = 4500;
     @Override
-    public void performService() {
-        System.out.println("Executing Manicure service");
+    public void serve() {
+        System.out.println("You have chosen a master who specializes in women's haircuts");
     }
 
+    @Override
+    public double getCost() {
+        return WOMEN_SERVICE_COST;
+    }
+}
