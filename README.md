@@ -17,6 +17,16 @@ The primary concept revolves around modeling a virtual barbershop environment, w
 ### Purpose of the Project
 
 The project serves as a showcase of design patterns, including Singleton, Strategy, Observer, Factory, Decorator, and Adapter. The adherence to SOLID principles ensures a robust and logically structured system.
+## Table of Contents
+
+- [Design Patterns](#design-patterns)
+  - [Singleton Pattern](#singleton-pattern)
+  - [Factory Pattern](#factory-pattern)
+  - [Decorator Pattern](#decorator-pattern)
+  - [Observer Pattern](#observer-pattern)
+  - [Adapter Pattern](#adapter-pattern)
+- [Conclusion](#conclusion)
+
 
 ## Main Body
 
@@ -29,15 +39,6 @@ The **Strategy pattern** is employed to model various barbershop services (Men's
 
 This project demonstrates the implementation of various design patterns to create a flexible system for a barbershop. The design patterns used include Singleton, Strategy, Observer, Factory, Decorator, and Adapter. The goal is to handle different services efficiently and provide real-time updates to relevant personnel.
 
-## Table of Contents
-
-- [Design Patterns](#design-patterns)
-  - [Singleton Pattern](#singleton-pattern)
-  - [Factory Pattern](#factory-pattern)
-  - [Decorator Pattern](#decorator-pattern)
-  - [Observer Pattern](#observer-pattern)
-  - [Adapter Pattern](#adapter-pattern)
-- [Conclusion](#conclusion)
 
 ## Design Patterns
 
