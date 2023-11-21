@@ -14,6 +14,7 @@
   - [Decorator Pattern](#decorator-pattern)
   - [Observer Pattern](#observer-pattern)
   - [Adapter Pattern](#adapter-pattern)
+- [UML Diagram](#uml-diagram)
 - [Conclusion](#conclusion)
 
 ## Project Overview
@@ -60,6 +61,8 @@ Real-time updates are achieved using the **Observer pattern**. The `Manager` and
 ### Adapter Pattern
 
 The **Adapter pattern** is used to make non-standard services, such as `Manicure`, fit the standard `ServiceStrategy` interface. This guarantees a uniform interface for all services and ensures easy integration.
+
+## UML Diagram
 
 ![Example Image](UMLDiagram.png)
 
