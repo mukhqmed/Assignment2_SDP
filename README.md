@@ -47,7 +47,7 @@ The **Factory pattern** is implemented to create services dynamically based on u
 
 ### Decorator Pattern
 
-The **Decorator pattern** enhances customization by allowing customers to add additional features to their chosen services. For example, customers can choose features like hair washing or massages, which are implemented as decorators.
+The **Decorator pattern** enhances customization by allowing customers to add additional features to their chosen services. For example, customers can choose features like `HairWashing` or `Massage`, which are implemented as decorators.
 
 ### Observer Pattern
 
