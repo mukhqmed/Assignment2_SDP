@@ -39,24 +39,24 @@ The **Strategy pattern** is employed to model various barbershop services (Men's
 
 ### Singleton Pattern
 
-The Singleton pattern is employed for managing the database connection. This ensures a single and globally accessible instance of the database connection, enhancing efficiency and avoiding redundant database connections.
+The **Singleton pattern** is employed for managing the database connection. This ensures a single and globally accessible instance of the database connection, enhancing efficiency and avoiding redundant database connections.
 
 ### Factory Pattern
 
-The Factory pattern is implemented to create services dynamically based on user choices. The `ServiceFactoryProvider` selects the appropriate factory, and the chosen factory creates the specific service. This allows for flexible service creation.
+The **Factory pattern** is implemented to create services dynamically based on user choices. The `ServiceFactoryProvider` selects the appropriate factory, and the chosen factory creates the specific service. This allows for flexible service creation.
 
 ### Decorator Pattern
 
-The Decorator pattern enhances customization by allowing customers to add additional features to their chosen services. For example, customers can choose features like hair washing or massages, which are implemented as decorators.
+The **Decorator pattern** enhances customization by allowing customers to add additional features to their chosen services. For example, customers can choose features like hair washing or massages, which are implemented as decorators.
 
 ### Observer Pattern
 
-Real-time updates are achieved using the Observer pattern. The Manager and Receptionist are notified instantly when a service is done, enabling quick actions or immediate sharing of information.
+Real-time updates are achieved using the **Observer pattern**. The 'Manager' and 'Receptionist' are notified instantly when a service is done, enabling quick actions or immediate sharing of information.
 
 ### Adapter Pattern
 
-The Adapter pattern is used to make non-standard services, such as Manicure, fit the standard `ServiceStrategy` interface. This guarantees a uniform interface for all services and ensures easy integration.
+The **Adapter pattern** is used to make non-standard services, such as 'Manicure', fit the standard `ServiceStrategy` interface. This guarantees a uniform interface for all services and ensures easy integration.
 
 ## Conclusion
 
-In this project, we applied design patterns and followed SOLID, DRY, KISS, YAGNI principles to create a flexible system for a barbershop. The system can efficiently handle different services, notify relevant personnel in real-time, and can be further improved by adding more services and specific method implementations for various scenarios.
+In this project, I used design patterns like **Singleton, Strategy, Observer, Factory, Decorator, and Adapter** to make a flexible system for a barbershop. It's good at handling different services and notifying people when a service is done. I followed some **SOLID, DRY, KISS, YAGNI** principles for better code. I learned some things along the way, and this project can be improved by adding more services, more specific and concrete method implementations, making sure it works well in different situations.
