@@ -51,11 +51,11 @@ The **Decorator pattern** enhances customization by allowing customers to add ad
 
 ### Observer Pattern
 
-Real-time updates are achieved using the **Observer pattern**. The 'Manager' and 'Receptionist' are notified instantly when a service is done, enabling quick actions or immediate sharing of information.
+Real-time updates are achieved using the **Observer pattern**. The `Manager` and `Receptionist` are notified instantly when a service is done, enabling quick actions or immediate sharing of information.
 
 ### Adapter Pattern
 
-The **Adapter pattern** is used to make non-standard services, such as 'Manicure', fit the standard `ServiceStrategy` interface. This guarantees a uniform interface for all services and ensures easy integration.
+The **Adapter pattern** is used to make non-standard services, such as `Manicure`, fit the standard `ServiceStrategy` interface. This guarantees a uniform interface for all services and ensures easy integration.
 
 ## Conclusion
 
